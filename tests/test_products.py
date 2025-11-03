@@ -11,7 +11,7 @@ MOCK_PRODUCT = {
     "Discontinued": False,
 }
 
-PRODUCT_API_ROOT = "/api/products"
+PRODUCT_API_ROOT = "/products"
 
 
 def test_get_all_products_success(client, mocker):

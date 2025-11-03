@@ -11,7 +11,7 @@ def create_app(config_name):
 
     init_app(app)
 
-    app_root = "/api"
+    app_root = "/"
 
     app.register_blueprint(customer_bp, url_prefix=app_root)
     app.register_blueprint(product_bp, url_prefix=app_root)

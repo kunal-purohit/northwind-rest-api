@@ -10,7 +10,7 @@ MOCK_CUSTOMER = {
     "City": "Berlin",
 }
 
-CUSTOMER_API_ROOT = "/api/customers"
+CUSTOMER_API_ROOT = "/customers"
 
 
 def test_get_all_customers_success(client, mocker):

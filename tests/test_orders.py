@@ -18,7 +18,7 @@ MOCK_ORDER = {
     "details": [MOCK_ORDER_DETAIL],
 }
 
-ORDER_API_ROOT = "/api/orders"
+ORDER_API_ROOT = "/orders"
 
 
 def test_get_all_orders_success(client, mocker):
